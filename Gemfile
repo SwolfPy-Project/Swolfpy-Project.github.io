@@ -36,3 +36,5 @@ gem 'bootstrap', '~> 5.1.0'
 group :development do
   gem 'popper_js', '>= 1.12.3'
 end
+
+gem "nokogiri", ">= 1.12.5"
