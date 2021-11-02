@@ -1,6 +1,6 @@
-<header class="site-header" role="banner">
+<header>
 
-  <div class="wrapper">
+  <!-- <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
@@ -26,5 +26,24 @@
         </div>
       </nav>
     {%- endif -%}
+  </div> -->
+
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">SwolfPy</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="{{ site.baseurl }}/" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/people" class="nav-link">People</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/publications" class="nav-link">Publications</a></li>
+        <li class="nav-item"><a href="https://swolfpy.readthedocs.io/en/latest/" target="_blank" class="nav-link">Documentation</a></li>
+        <li class="nav-item"><a href="https://pypi.org/project/swolfpy/" target="_blank" class="nav-link">Download</a></li>
+        <li class="nav-item"><a href="{{ site.baseurl }}/contact" class="nav-link">Contact</a></li>
+      </ul>
+    </header>
   </div>
+
 </header>

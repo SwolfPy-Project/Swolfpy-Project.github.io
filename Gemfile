@@ -30,3 +30,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
 gem "webrick", "~> 1.7"
+
+gem 'bootstrap', '~> 5.1.0'
+
+group :development do
+  gem 'popper_js', '>= 1.12.3'
+end
