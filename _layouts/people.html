@@ -61,7 +61,7 @@ layout: default
   <div class="row">
     {% for person in site.people %}
       {% if person.role == "Contributor" %}
-        <div class="col-lg-4">
+        <div class="col-lg-4 ">
           <a href= {{ person.webpage }} target="_blank">
           {% if person.image_path %}
             <img class="bd-placeholder-img rounded-circle" src={{ person.image_path }}  width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -78,6 +78,7 @@ layout: default
             <li>{{ person.title }}</li>
             <li>{{ person.department }}</li>
             <li>{{ person.university }}</li>
+            <li><a href="mailto:{{ person.email }}" >{{ person.email }}</a></li>
           </ul>
           <ul class="nav col-md-6 justify-content-left list-unstyled d-flex">
             {%- if person.github_username -%}
