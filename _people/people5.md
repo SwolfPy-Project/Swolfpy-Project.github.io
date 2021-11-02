@@ -10,5 +10,5 @@ webpage: https://www.ccee.ncsu.edu/people/jfdecaro/
 linkedin_username:
 github_username:
 twitter_username:
-image_path: /assets/img/people/DeCarolis.jpg
+image_path: /assets/img/people/Decarolis.jpg
 ---
