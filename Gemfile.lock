@@ -149,6 +149,7 @@ DEPENDENCIES
   jekyll (~> 4.2.1)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  nokogiri (>= 1.12.5)
   popper_js (>= 1.12.3)
   tzinfo (~> 1.2)
   tzinfo-data
