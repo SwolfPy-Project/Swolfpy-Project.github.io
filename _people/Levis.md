@@ -1,5 +1,5 @@
 ---
-date: 2018-08-02
+date: 2018-08-03
 role: Lead
 name: Dr. James W. Levis
 title: Research Assistant Professor

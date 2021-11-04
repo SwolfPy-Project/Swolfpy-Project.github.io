@@ -17,13 +17,13 @@ layout: default
 <div class="px-4 pt-5 my-5 text-center border-bottom">
   <h1 class="display-4 fw-bold">Solid Waste Optimization Life-cycle Framework</h1>
   <div class="col-lg-6 mx-auto">
-    <p class="lead mb-4">SwolfPy is a SWM LCA optimization framework with built-in parametric and Monte Carlo sensitivity
+    <p class="lead mb-4">SwolfPy is a <strong>free open-source SWM LCA optimization framework</strong> with built-in parametric and Monte Carlo sensitivity
         and uncertainty analysis capabilities.
          SwolfPy simulates the processes in the life-cycle of MSW from collection to final disposal or energy/material recovery,
          and it includes several default SWM process models. </p>
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-      <a href="https://swolfpy.readthedocs.io/en/latest/installation.html" class="btn btn-primary btn-lg px-4 me-sm-3">Install</a>
-      <a href="https://swolfpy.readthedocs.io/en/latest/Getting_started.html" class="btn btn-outline-secondary btn-lg px-4">Getting Started</a>
+      <a href="https://swolfpy.readthedocs.io/en/latest/installation.html" target="_blank" class="btn btn-primary btn-lg px-4 me-sm-3">Install</a>
+      <a href="https://swolfpy.readthedocs.io/en/latest/Getting_started.html" target="_blank" class="btn btn-outline-secondary btn-lg px-4">Getting Started</a>
     </div>
   </div>
   <div class="overflow-hidden" style="max-height: 45vh;">
@@ -35,16 +35,16 @@ layout: default
 
 <div class="b-example-divider"></div>
 
+<!-- ####      SWM Network      ########## -->
+
 <div class="container col-xxl-8 px-4 py-5">
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-10 col-sm-8 col-lg-7">
-      <!-- <img src="assets/img/swm_network-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="900" height="900" loading="lazy"> -->
-
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div id="SwmNetworkIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#SwmNetworkIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#SwmNetworkIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#SwmNetworkIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -57,16 +57,15 @@ layout: default
             <img src="assets/img/swm_network-3.png" class="d-block mx-lg-auto img-fluid" width="600" height="200" loading="lazy">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#SwmNetworkIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#SwmNetworkIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
     </div>
     <div class="col-lg-5">
       <h1 class="display-5 fw-bold lh-1 mb-3">Plot Solid Waste Management Network</h1>
@@ -77,20 +76,16 @@ layout: default
 
 <div class="b-example-divider"></div>
 
-<div class="container col-xxl-8 px-4 py-5">
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-    <div class="col-10 col-sm-8 col-lg-5">
-      <h1 class="display-5 fw-bold lh-1 mb-3">Plot Mass Flow Sankey Diagrams</h1>
-      <p class="lead">The mass flow Sankey diagrams will help the users to understand the waste flows in the treatment network. The Sankey diagrams are interactive figures and created by Plotly package.</p>
-    </div>
-    <div class="col-lg-7">
-      <!-- <img src="assets/img/sankey-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="400" loading="lazy"> -->
+<!-- ####      Mass Flow Sankey      ########## -->
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row align-items-center g-5 py-5">
+    <div class="col-lg-7">
+      <div id="SankeyIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#SankeyIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#SankeyIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#SankeyIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -103,32 +98,37 @@ layout: default
             <img src="assets/img/sankey-3.png" class="d-block mx-lg-auto img-fluid" width="600" height="400" loading="lazy">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#SankeyIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#SankeyIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+    </div>
+    <div class="col-10 col-sm-8 col-lg-5">
+      <h1 class="display-5 fw-bold lh-1 mb-3">Plot Mass Flow Sankey Diagrams</h1>
+      <p class="lead">The mass flow Sankey diagrams will help the users to understand the waste flows in the treatment network. The Sankey diagrams are interactive figures and created by Plotly package.</p>
     </div>
   </div>
 </div>
 
 <div class="b-example-divider"></div>
 
+<!-- ####      Monte Carlo      ########## -->
+
 <div class="container col-xxl-8 px-4 py-5">
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-10 col-sm-8 col-lg-7">
       <!-- <img src="assets/img/swm_network-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="900" height="900" loading="lazy"> -->
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div id="MCIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#MCIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#MCIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#MCIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -150,11 +150,11 @@ layout: default
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#MCIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#MCIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -162,62 +162,48 @@ layout: default
 
     </div>
     <div class="col-lg-5">
-      <h1 class="display-5 fw-bold lh-1 mb-3">Built-in Monte-Carlo Simulation</h1>
-      <p class="lead">Users can create custom solid waste management (SWM) treatment networks by allocating the waste flows to different processes. SwolfPy plots the created SWM treatment network using Graphviz. </p>
+      <h1 class="display-5 fw-bold lh-1 mb-3">Built-in Monte Carlo Simulation</h1>
+      <p class="lead">SwolfPy’s Monte Carlo simulation capability allows users to check the robustness of the results and identify the potential range of environmental performance and also the most critical uncertain inputs .</p>
     </div>
   </div>
 </div>
 
 <div class="b-example-divider"></div>
 
+<!-- ####      Optimization      ########## -->
+
 <div class="container col-xxl-8 px-4 py-5">
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-    <div class="col-10 col-sm-8 col-lg-5">
-      <h1 class="display-5 fw-bold lh-1 mb-3">Built-in Optimization</h1>
-      <p class="lead">The mass flow Sankey diagrams will help the users to understand the waste flows in the treatment network. The Sankey diagrams are interactive figures and created by Plotly package.</p>
-    </div>
+  <div class="row flex-lg-row align-items-center g-5 py-5">
     <div class="col-lg-7">
       <!-- <img src="assets/img/sankey-1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="400" loading="lazy"> -->
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div id="OptIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#OptIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#OptIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#OptIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/sankey-1.png" class="d-block mx-lg-auto img-fluid" width="600" height="400" loading="lazy">
+            <img src="assets/img/Opt-1.png" class="d-block mx-lg-auto img-fluid" width="600" height="400" loading="lazy">
             <div class="carousel-caption d-none d-md-block">
-              <h5>...</h5>
-              <p>...</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/sankey-1.png" class="d-block mx-lg-auto img-fluid" width="600" height="400" loading="lazy">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>...</h5>
-              <p>...</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/sankey-1.png" class="d-block mx-lg-auto img-fluid" width="600" height="400" loading="lazy">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>...</h5>
-              <p>...</p>
+              <h5></h5>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#OptIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#OptIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+    </div>
+    <div class="col-10 col-sm-8 col-lg-5">
+      <h1 class="display-5 fw-bold lh-1 mb-3">Built-in Optimization</h1>
+      <p class="lead">SwolfPy’s optimization capability allows users to systematically explore SWM strategies that minimize cost or environmental impacts while meeting specified technical constraints and policy targets (e.g., landfill diversion).</p>
     </div>
   </div>
 </div>
@@ -225,11 +211,8 @@ layout: default
 <div class="b-example-divider"></div>
 
 
-
-
-
 <!-- #### FEATURES #### -->
-<div class="container px-4 py-5" id="featured-3">
+<!-- <div class="container px-4 py-5" id="featured-3">
   <h2 class="pb-2 border-bottom">Why SwolfPy?</h2>
   <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
     <div class="feature col">
@@ -247,6 +230,4 @@ layout: default
       <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
     </div>
   </div>
-</div>
-
-<div class="b-example-divider"></div>
+</div> -->
