@@ -29,7 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  SwolfPy-Project
 youtube_username: UCKj4tnoE-SuInr3UosuewcQ
 
-google_analytics: UA-164827627-1
+google_analytics: G-8LSK0LTGFP
 
 # Build settings
 theme: minima
