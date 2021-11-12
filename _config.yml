@@ -21,9 +21,14 @@
 title: SwolfPy-Project
 email: msardar2@ncsu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  SwolfPy is a open-source SWM LCA optimization framework.
+  SwolfPy is a free, multi-platform, Python-based, open-source, SWM LCA optimization
+  framework with built-in parametric and Monte Carlo sensitivity and uncertainty analysis
+  capabilities.
+tagline: SwolfPy is a open-source SWM LCA optimization framework.
 #baseurl: https://swolfpy-project.github.io/ # the subpath of your site, e.g. /blog
 url: https://swolfpy-project.github.io # the base hostname & protocol for your site, e.g. http://example.com
+logo: assets/img/SwolfPy-Icon.png
+locale: en_US
 github_username:  SwolfPy-Project
 youtube_username: UCKj4tnoE-SuInr3UosuewcQ
 
@@ -34,6 +39,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 collections:
   papers:

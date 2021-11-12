@@ -150,6 +150,7 @@ DEPENDENCIES
   bootstrap (~> 5.1.0)
   jekyll (~> 4.2.1)
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
   jekyll-sitemap
   minima (~> 2.5)
   nokogiri (>= 1.12.5)
