@@ -3,7 +3,7 @@ layout: page
 title:
 permalink: /contact/
 description: SwolfPy Project's Contact
-tags: [Sardarmehni, Levis]
+tags: [SWOLF, swolfpy, Sardarmehni, Levis]
 ---
 
 <img align="left" width="65" height="65" src="/assets/img/google-group.png">

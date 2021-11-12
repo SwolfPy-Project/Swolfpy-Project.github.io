@@ -5,7 +5,7 @@
 layout: home
 title: Solid Waste Optimization Life-cycle Framework in Python(SwolfPy)
 description: SwolfPy is a open-source SWM LCA optimization framework.
-tags: [LCA, SWM, MSW, Landfill, WTE, Composting, AD, Gasification, Collection, Optimization, Monte-Carlo, Sensitivity analysis]
+tags: [SWOLF, swolfpy, LCA, SWM, MSW, Landfill, WTE, Composting, AD, Gasification, Collection, Optimization, Monte-Carlo, Sensitivity analysis]
 author: Mojtaba Sardarmehni
 image: assets/img/SwolfPy-Icon.png
 ---
