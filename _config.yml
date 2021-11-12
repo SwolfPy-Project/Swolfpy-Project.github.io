@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   SwolfPy is a free, multi-platform, Python-based, open-source, SWM LCA optimization
   framework with built-in parametric and Monte Carlo sensitivity and uncertainty analysis
   capabilities.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: https://swolfpy-project.github.io/ # the subpath of your site, e.g. /blog
+url: https://swolfpy-project.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  SwolfPy-Project
 youtube_username: UCKj4tnoE-SuInr3UosuewcQ
 
