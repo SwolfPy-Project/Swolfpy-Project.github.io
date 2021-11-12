@@ -8,18 +8,31 @@ layout: default
     {% for person in site.people %}
       {% if person.role == "Lead" %}
         <div class="col-lg-4 ">
-          <a href= {{ person.webpage }} target="_blank">
-          {% if person.image_path %}
-            <img class="bd-placeholder-img rounded-circle" src={{ person.image_path }}  width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false">
+          {%- if person.webpage -%}
+            <a href= {{ person.webpage }} target="_blank">
+            {% if person.image_path %}
+              <img class="bd-placeholder-img rounded-circle" src={{ person.image_path }}  width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false">
+            {% else %}
+              <svg class="bd-placeholder-img rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 300x300" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect>
+                <text x="50%" y="50%" fill="#777" dy=".3em">300x300</text>
+              </svg>
+            {% endif %}
+            <h3>{{ person.name }}</h3>
+            </a>
           {% else %}
-            <svg class="bd-placeholder-img rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 300x300" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777"></rect>
-              <text x="50%" y="50%" fill="#777" dy=".3em">300x300</text>
-            </svg>
+            {% if person.image_path %}
+              <img class="bd-placeholder-img rounded-circle" src={{ person.image_path }}  width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false">
+            {% else %}
+              <svg class="bd-placeholder-img rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 300x300" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect>
+                <text x="50%" y="50%" fill="#777" dy=".3em">300x300</text>
+              </svg>
+            {% endif %}
+            <h3>{{ person.name }}</h3>
           {% endif %}
-          <h3>{{ person.name }}</h3>
-          </a>
           <ul class="list-unstyled text-dark">
             <li>{{ person.title }}</li>
             <li>{{ person.department }}</li>
@@ -62,18 +75,31 @@ layout: default
     {% for person in site.people %}
       {% if person.role == "Contributor" %}
         <div class="col-lg-4 ">
-          <a href= {{ person.webpage }} target="_blank">
-          {% if person.image_path %}
-            <img class="bd-placeholder-img rounded-circle" src={{ person.image_path }}  width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false">
+          {%- if person.webpage -%}
+            <a href= {{ person.webpage }} target="_blank">
+            {% if person.image_path %}
+              <img class="bd-placeholder-img rounded-circle" src={{ person.image_path }}  width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false">
+            {% else %}
+              <svg class="bd-placeholder-img rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 300x300" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect>
+                <text x="50%" y="50%" fill="#777" dy=".3em">300x300</text>
+              </svg>
+            {% endif %}
+            <h3>{{ person.name }}</h3>
+            </a>
           {% else %}
-            <svg class="bd-placeholder-img rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 300x300" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#777"></rect>
-              <text x="50%" y="50%" fill="#777" dy=".3em">300x300</text>
-            </svg>
+            {% if person.image_path %}
+              <img class="bd-placeholder-img rounded-circle" src={{ person.image_path }}  width="300" height="300" preserveAspectRatio="xMidYMid slice" focusable="false">
+            {% else %}
+              <svg class="bd-placeholder-img rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 300x300" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect>
+                <text x="50%" y="50%" fill="#777" dy=".3em">300x300</text>
+              </svg>
+            {% endif %}
+            <h3>{{ person.name }}</h3>
           {% endif %}
-          <h3>{{ person.name }}</h3>
-          </a>
           <ul class="list-unstyled text-dark">
             <li>{{ person.title }}</li>
             <li>{{ person.department }}</li>
