@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Solid Waste Optimization Life-cycle Framework in Python (SwolfPy)
+title: SwolfPy-Project
 email: msardar2@ncsu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  SwolfPy is a free, multi-platform, Python-based, open-source, SWM LCA optimization
-  framework with built-in parametric and Monte Carlo sensitivity and uncertainty analysis
-  capabilities.
+  SwolfPy is a open-source SWM LCA optimization framework.
 #baseurl: https://swolfpy-project.github.io/ # the subpath of your site, e.g. /blog
 url: https://swolfpy-project.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  SwolfPy-Project

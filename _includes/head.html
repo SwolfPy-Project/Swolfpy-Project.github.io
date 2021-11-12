@@ -4,6 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="ti9MiX3EvzyPQdBNqxrUcrGKEjeJ4c1a5yZtO4EBb04" />
   <meta name="msvalidate.01" content="12C6DA2C530144AAB3134702B3B6CABF" />
+
+  {%if page.tags %}
+  <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+  {%endif %}
+
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
