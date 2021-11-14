@@ -1,0 +1,104 @@
+---
+layout: page
+title: SwolfPy's Life-Cycle Process Models
+permalink: /models/
+description: SwolfPy's life-Cycle process models
+tags: [SWOLF, swolfpy, LCA, SWM, MSW, Landfill, WTE, Composting, AD, Gasification, Collection, Optimization, Monte-Carlo, Sensitivity analysis]
+---
+
+<p class="lead mb-3 mt-4 fs-3"> The
+  <a href="https://github.com/SwolfPy-Project/swolfpy-processmodels/tree/master/swolfpy_processmodels" target="_blank">source code</a>
+   & <a href="https://github.com/SwolfPy-Project/swolfpy-inputdata/tree/master/swolfpy_inputdata/Data" target="_blank">input data</a>
+   of the life-cycle process models are available on SwolfPy Project's
+   <a href="https://github.com/SwolfPy-Project" target="_blank">GitHub repository</a>.</p>
+
+<div class="table-responsive-sm mt-4">
+  <table class="table table-hover table-striped">
+    <thead><tr>
+      <th class="text-nowrap"> </th>
+      <th class="text-nowrap"> Process Model </th>
+      <th class="text-nowrap"> Description </th>
+      <th class="text-nowrap"> Source </th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Landfill (<b>LF</b>)</td>
+        <td>Calculates emissions, material use, and energy use associated with construction, operations, closure and post-closure activities, landfill gas and leachate management, and carbon storage.</td>
+        <td>Based on <a href="https://doi.org/10.1021/acs.est.1c02526" target='_blank'>Wang et al. (2021)</a>.</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Waste-to-Energy (<b>WTE</b>)</td>
+        <td>Calculates emissions, mass flows, and resource use and recovery for the mass burn WTE process.</td>
+        <td>Based on an updated version of <a href="https://doi.org/10.1080/10473289.2000.10464135" target='_blank'>Harrison et al. (2000)</a> that includes aluminum recovery in the bottom ash and heat losses to moisture and ash.</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Gasification & Syngas Combustion (<b>GC</b>)</td>
+        <td>Calculates emissions, mass flows, and resource use and recovery for gasification and syngas combustion process.</td>
+        <td>Based on <a href="https://doi.org/10.1016/j.resconrec.2021.105503" target='_blank'>Sardarmehni and Levis (2021)</a>.</td>
+      </tr>
+
+      <tr>
+        <td>4</td>
+        <td>Composting (<b>Comp</b>)</td>
+        <td>Calculates emissions, mass flows, and resource use and recovery for aerobic composting process and final use of compost.</td>
+        <td>Based on <a href="http://go.ncsu.edu/swolf_composting" target="_blank">Levis and Barlaz (2013)</a> & <a href="https://doi.org/10.1021/acs.est.6b00893" target="_blank">Hodge et al. (2016)</a>.</td>
+      </tr>
+
+      <tr>
+        <td>5</td>
+        <td>Anaerobic Digestion (<b>AD</b>)</td>
+        <td>Calculates emissions, mass flows, and resource use and recovery for anaerobic digestion process and final use of compost.</td>
+        <td>Based on <a href="http://go.ncsu.edu/swolf_ad" target="_blank">Levis and Barlaz (2013)</a> & <a href="https://doi.org/10.1021/acs.est.6b00893" target="_blank">Hodge et al. (2016)</a>.</td>
+      </tr>
+
+      <tr>
+        <td>6</td>
+        <td>Home composting (<b>HC</b>)</td>
+        <td>Calculates emissions, mass flows, and resource use and recovery for aerobic home composting process and final use of compost.</td>
+        <td>Developed using data from <a href="https://doi.org/10.1039/C2EE01085B" target="_blank">Colón et al. (2012)</a> & <a href="https://doi.org/10.1016/j.wasman.2010.07.004" target="_blank">Andersen et al. (2010)</a>.</td>
+      </tr>
+
+      <tr>
+        <td>7</td>
+        <td>Single-Stream material recovery facility (<b>MRF</b>)</td>
+        <td>Calculates cost, emissions, and energy use associated with material recovery facilities.</td>
+        <td>Based on <a href="https://doi.org/10.1016/j.wasman.2014.09.012" target="_blank">Pressley et al. (2015)</a>.</td>
+      </tr>
+
+      <tr>
+        <td>8</td>
+        <td>Refused-derived fuel (<b>RDF</b>)</td>
+        <td>Calculates cost, emissions, and energy use associated with RDF production facilities.</td>
+        <td>It is based on <a href="https://doi.org/10.1016/j.jclepro.2014.02.041" target="_blank">Pressley et al. (2014)</a> and updated in <a href="https://doi.org/10.1016/j.resconrec.2021.105503" target='_blank'>Sardarmehni and Levis (2021)</a>.</td>
+      </tr>
+
+      <tr>
+        <td>9</td>
+        <td>Single-family Collection (<b>SF_Col</b>)</td>
+        <td>Calculates cost, emissions, and fossil fuel use associated with MSW collection.</td>
+        <td>Based on <a href="https://doi.org/10.1061/(ASCE)EE.1943-7870.0001065" target="_blank">Jaunich et al. (2016)</a>.</td>
+      </tr>
+
+      <tr>
+        <td>10</td>
+        <td>Reprocessing (<b>Reproc</b>)</td>
+        <td>Calculates emissions, mass flows, and resource use and recovery associated with recycling materials.</td>
+        <td>Based on data from <a href="https://mswdst.rti.org/docs/lci_report_ocr.pdf" target="_blank">RTI International (2003)</a> & <a href="https://plasticsrecycling.org/images/library/2018-APR-LCI-report.pdf" target="_blank">Franklin Associates (2018)</a>.</td>
+      </tr>
+
+      <tr>
+        <td>11</td>
+        <td>Transfer Station (<b>TS</b>)</td>
+        <td>Calculates cost, emissions, and energy use associated with transfer stations.</td>
+        <td>-</td>
+      </tr>
+
+
+    </tbody>
+  </table>
+</div>
