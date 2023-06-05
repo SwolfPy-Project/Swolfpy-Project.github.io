@@ -6,7 +6,7 @@ title: Research Assistant Professor
 department: Department of Civil, Construction, and Environmental Engineering
 university: North Carolina State University
 email: jwlevis@ncsu.edu
-webpage: https://www.ccee.ncsu.edu/people/jwlevis/
+webpage: https://www.linkedin.com/in/james-levis-68007232/
 linkedin_username: james-levis-68007232
 github_username:
 twitter_username: JimLevis

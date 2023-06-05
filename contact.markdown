@@ -27,4 +27,4 @@ Please report bugs at the SwolfPy's [GitHub Issues](https://github.com/SwolfPy-P
 If you need to communicate with us, send an email:
 
 * **Dr. James W. Levis** ([jwlevis@ncsu.edu](mailto:jwlevis@ncsu.edu))
-* **Mojtaba Sardarmehni** ([msardar2@ncsu.edu](mailto:msardar2@ncsu.edu))
+* **Mojtaba Sardarmehni** ([msm.sardarmehni@gmail.com](mailto:msm.sardarmehni@gmail.com))
